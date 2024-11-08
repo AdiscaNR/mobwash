@@ -9,6 +9,7 @@ class Payment extends Model
     protected $fillable = [
         'tx_id',
         'type',
+        'total',
         'image'
     ];
 }

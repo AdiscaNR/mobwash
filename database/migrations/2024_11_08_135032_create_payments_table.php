@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('tx_id');
             $table->unsignedBigInteger('payment_type');
+            $table->BigInteger('total');
             $table->string('image')->nullable();
             $table->timestamps();
             
